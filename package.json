@@ -1,0 +1,50 @@
+{
+  "name": "Rnwst2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "rn-start": "node node_modules/react-native/local-cli/cli.js start",
+    "rn-test": "jest",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "@react-navigation/core": "^3.0.0",
+    "@react-navigation/web": "^1.0.0-alpha.7",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-navigation": "^2.13.7",
+    "react": "16.6.3",
+    "react-art": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-native": "0.57.7",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-native-vector-icons": "^6.1.0",
+    "react-native-web": "^0.9.8",
+    "react-navigation": "^3.0.4",
+    "react-scripts": "2.1.1",
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.57.17",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
